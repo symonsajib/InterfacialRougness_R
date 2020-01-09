@@ -16,7 +16,7 @@ setwd('C:\\Users\\Symon\\Google Drive\\School_Drive\\Research_Symon\\pa_submissi
 roughness <- read_csv('Mem.csv')
 
 # We need to divide the membrane/surface into small grids
-# Decide how many grids we need and define the grid based on x and y cordinate (Here 9 grids for as an example)
+# Decide how many grids we need and define the grid based on x and y cordinate (Here we choose 9 grids as an example)
 
 roughness$grid_range[roughness$x <= 3 & roughness$y <= 3 ] <- "grid1"
 roughness$grid_range[(roughness$x > 3 &  roughness$x <= 6) & roughness$y <= 3 ] <- "grid2"
