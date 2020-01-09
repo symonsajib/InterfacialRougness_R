@@ -1,4 +1,4 @@
-A sample analysis workflow to - 
+A analysis workflow and r script to - 
 1. Find the inter-facial atoms and render the 3d image of a surface
 2. Quantify rms roughness from the interfacial atoms
 
