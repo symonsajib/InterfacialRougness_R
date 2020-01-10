@@ -4,7 +4,7 @@ An analysis workflow and r script to -
 
 WorkFLow :
 
-1. To render 3d image of interface 
+1. To render 3d image of interface::
 Mem. Gro ⇾
 Mem.csv ⇾
 Interfacial_atoms.R (Find the interfacial atoms) ⇾
@@ -13,7 +13,7 @@ Interfacial_Atoms_rawdata.csv (This is done for grid size is 2A*2A) ⇾
 Rendered Polyamide Membrane interface - 1.tif / Rendered Polyamide Membrane interface - 2.tif 
 
 
-2. To quantify rms of roughness:
+2. To quantify rms of roughness::
 Interfacial_Atoms_rawdata.csv (This is done for grid size is 2A*2A) ⇾
 3dSurface_data.xlsx (choose big grid size from here if you need) ⇾
 RMS_roughness.xlsx (Calculate rms roughness for grid size 4A * 4A) 
